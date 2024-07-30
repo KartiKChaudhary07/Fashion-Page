@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #82616d;
+}
+
+#left {
+    position: relative;
+    width: 45%;
+    height: 100%;
+    background-color: rgb(233, 187, 101);
+    overflow: hidden;
+}
+
+#centerimg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    height: 50%;
+    background-color: rgb(86, 86, 180);
+    background-image: url(pexels-kowalievska-1055691.jpg);
+    background-size: cover;
+}
+
+#center {
+    position: relative;
+    width: 45%;
+    height: 100%;
+    background-color: rgb(205, 142, 83);
+    background-image: url(pexels-jack-winbow-460463-1457983.jpg);
+    background-size: cover;
+}
+
+#right {
+    width: 5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav {
+    width: 100%;
+    padding: 35px 45px;
+    gap: 100px;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+#nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+#nav h3 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 4px;
+}
+
+#centerimg #text {
+    display: flex;
+    position: absolute;
+    bottom: -27%;
+    width: 100%;
+    color: #fff;
+}
+
+#text #parts {
+    width: 30%;
+}
+
+#text #para {
+    width: 70%;
+}
+
+#parts h5 {
+    margin-bottom: 20px;
+}
+
+#para p {
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 9px;
+}
+
+#scroll {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 10px; /* Adjusted to be above the bottom */
+    left: 10%;
+    transform-origin: 0% 50%;
+    transform: rotate(-90deg);
+    gap: 20px;
+}
+
+#scroll #line {
+    width: 150px;
+    height: 2px;
+    background-color: #fff;
+}
+
+#scroll h3 {
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+}
+
+#centerimg2 {
+    position: absolute;
+    top: 50%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    height: 70%;
+    background-color: rgb(94, 94, 147);
+}
+
+#mtext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    width: 85%;
+    align-items: center;
+}
+
+#mtext h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100px;
+    color: beige;
+    font-size: 9vw;
+}
+
+#mtext h3 {
+    user-select: none;
+    font-size: 3vw;
+    font-weight: 100px;
+    color: #e8a808;
+    align-items: center;
+    line-height: 1;
+}
+
+#center #card {
+    display: flex;
+    position: absolute;
+    right: -5%;
+    bottom: 10%;
+    width: 260px;
+    height: 170px;
+    background-color: red;
+    z-index: 999;
+}
+
+#cicons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+    height: 100%;
+    background-color: white;
+}
+
+#cimage {
+    width: 90%;
+    height: 100%;
+    background-color: rgb(132, 168, 43);
+    background-image: url(pexels-marcelochagas-2229490.jpg);
+    background-size: cover;
+}
+
+#relem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+#relem #relemlinks {
+    transform: rotate(90deg);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transform: none;
+}
+
+#relemlinks a {
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+}
